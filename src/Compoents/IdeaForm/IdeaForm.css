@@ -1,0 +1,15 @@
+.border{
+    background: rgb(28 53 54);
+    padding: 2%;
+    margin: auto;
+    color: antiquewhite;
+    width: 80%;
+}
+#demo-helper-text-aligned{
+    color: antiquewhite;
+}
+
+#ideaBtn{
+    float: right;
+    
+}
