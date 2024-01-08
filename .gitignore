@@ -32,28 +32,4 @@ logs
 **/*.back.*
 
 node_modules
-bower_components
-
-*.sublime*
-
-psd
-thumb
-
-sketch
-
-### VisualStudioCode ###
-.vscode
-
-
-# Local History for Visual Studio Code
-.history/
-
-# Built Visual Studio Code Extensions
-*.vsix
-
-### VisualStudioCode Patch ###
-# Ignore all local history of files
-.history
-.ionide
-
-# End of https://www.toptal.com/developers/gitignore/api/react,visualstudiocode
+bower_componentsq

@@ -1,0 +1,35 @@
+.padding{
+    margin-left: 10%;
+}
+.editbtn{
+    margin: left 60% !important ;
+}
+.padding{
+    margin-left:'70%'
+}
+.borderList{
+   
+        --mask: 
+          linear-gradient(-90deg,#0000 20px,#000 0) 10px,
+          radial-gradient(10px,#000 98%,#0000) 50%/20px 18.50px space repeat;
+        -webkit-mask: var(--mask);
+                mask: var(--mask);
+      
+}
+.boxModal{
+    background: white;
+    display: flex;
+    width: 70%;
+    margin-left: 16%;
+    margin-top: 4%;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+.bAlign{
+    display: flex;
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+}

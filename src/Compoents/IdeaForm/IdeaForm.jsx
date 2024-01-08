@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import './IdeaForm.css';
 import Button from '@mui/material/Button';
-import GetIdeaList, { createIdea } from '../../api/ideaApiList';
+import ideaList from '../../api/ideaApiList';
 import Grid from '@mui/material/Grid';
 import TextField from '@mui/material/TextField';
 import NumberInput from '../NumberInput';
 import Alertservice from '../../Service/AlertService';
 
 function IdeaForm() {
-    let listItem = GetIdeaList();
+    let listItem = ideaList.getIdeaList();
     let items = localStorage.getItem('ideaList')
     const [hide, sethide] = useState(false);
     if (items && items.length) {
@@ -21,7 +21,7 @@ function IdeaForm() {
         let formObject = Object.fromEntries(formData.entries());
 
         console.log(formObject);
-        createIdea(formObject)
+        ideaList.createIdea(formObject)
             .then((response) => {
                 const data = response;
                 console.log("response ", data);

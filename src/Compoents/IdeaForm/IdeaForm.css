@@ -1,13 +1,11 @@
 .border{
-    background: rgb(28 53 54);
+    background: #fff;
     padding: 2%;
     margin: auto;
-    color: antiquewhite;
-    width: 80%;
+    color: #af3673;
+    width: 100%;
 }
-#demo-helper-text-aligned{
-    color: antiquewhite;
-}
+
 
 #ideaBtn{
     float: right;
